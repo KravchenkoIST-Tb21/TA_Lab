@@ -14,7 +14,7 @@ namespace TA_Lab_3
 	{
 		public static void Main(string[] args)
 		{
-			double x=-3, y=-1,dx;
+			double x=-7, y=-1,dx;
 			Console.WriteLine("Zadanie 1");
 			Console.WriteLine("Tablica znachenij funkcii:");
 			Console.WriteLine("    _______________");
@@ -36,6 +36,21 @@ namespace TA_Lab_3
                   Console.WriteLine("   |" + String.Format("{0,4:0.#}", x) + "   |" + String.Format("{0,5:0.##}", y) + "  |");
                   Console.WriteLine("   |_______|_______|");   
 				}
+			Console.WriteLine("Zadanie 2");
+			for (i=1;i<10,i++)
+			{
+				Console.Write("Vvedite R=");
+                R = Convert.ToDouble(Console.ReadLine());
+                Console.Write("Vvedite x=");
+                x = Convert.ToDouble(Console.ReadLine());
+                Console.Write("Vvedite у=");
+                y = Convert.ToDouble(Console.ReadLine());
+                if ((y <= Math.Pow((x+R)+(y-R),2))||(y<=0&&y>=-R&&x>=0&&x<=2*R)))
+                    Console.WriteLine("Popadanie");
+                else
+                    Console.WriteLine("Mimo");
+                
+			}
 				Console.ReadKey(true);
 			
 		
