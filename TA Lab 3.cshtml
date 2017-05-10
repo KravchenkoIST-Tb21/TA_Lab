@@ -45,10 +45,12 @@ namespace TA_Lab_3
                 x = Convert.ToDouble(Console.ReadLine());
                 Console.Write("Vvedite у=");
                 y = Convert.ToDouble(Console.ReadLine());
-                if ((y <= Math.Pow((x + R) + (y - R), 2)) || (y <= 0 && y >= -R && x >= 0 && x <= 2 * R))
-                    Console.WriteLine("Popadanie");
-                else
-                    Console.WriteLine("Mimo");   
+                if (y <= Math.Pow(((x - R) + (y + R)), 2))
+                         Console.WriteLine("Popadanie");
+                    else if (y <= 0 && y >= -R && x >= 0 && x <= 2 * R)
+                        Console.WriteLine("Popadanie");
+                    else
+                        Console.WriteLine("Mimo");  
             }
             Console.WriteLine("Zadanie 3");
                 double xn, xk, gx, e = 1E-15;
