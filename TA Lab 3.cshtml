@@ -45,7 +45,7 @@ namespace TA_Lab_3
                 x = Convert.ToDouble(Console.ReadLine());
                 Console.Write("Vvedite у=");
                 y = Convert.ToDouble(Console.ReadLine());
-                if (y <= Math.Pow(((x - R) + (y + R)), 2))
+                if (y <= Math.Pow((x - R), 2)&& x <=Math.Pow(((y + R)), 2)&& x+y<=Math.Pow((R),2))
                          Console.WriteLine("Popadanie");
                     else if (y <= 0 && y >= -R && x >= 0 && x <= 2 * R)
                         Console.WriteLine("Popadanie");
@@ -86,5 +86,5 @@ namespace TA_Lab_3
 			
 		
 		}
-	}
+    }
 }
