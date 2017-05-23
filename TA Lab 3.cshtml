@@ -52,16 +52,17 @@ namespace TA_Lab_3
                     else
                         Console.WriteLine("Mimo");  
             }
-            Console.WriteLine("Zadanie 3");
-                double xn, xk, gx, e = 1E-15;
-                Console.Write("X nachalnoe: ");
-            xn= Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Zadanie 3");
+            double x, xn, xk, gx, e = 1E-15;
+            Console.Write("X nachalnoe: ");
+            xn = Convert.ToDouble(Console.ReadLine());
             Console.Write("X konechnoe: ");
             xk = Convert.ToDouble(Console.ReadLine());
             Console.Write("dX: ;");
             gx = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("\n   X          Тейлор           N             Math");
-            Console.WriteLine(new string('_', 55));
+            Console.WriteLine("     ________________________________");
+            Console.WriteLine("     |   x |asin_def|   N |arcsin(x)|");
+            Console.WriteLine("     |_____|________|_____|_________|");
             for (x = xn; x <= xk; x += gx)
                 if (Math.Abs(x) <= 1)
                 {
@@ -78,13 +79,14 @@ namespace TA_Lab_3
                         mul = -mul;
                         d += 2;
                     } while (Math.Abs(el - oldel) > e);
-                    Console.WriteLine("{0,6:F3} {1,18:F15} {2,9} {3,18:F15}", x, sum, n, Math.PI / 2 - Math.Atan(x));
+                    Console.WriteLine("     |" + String.Format("{0,5:0.#}", x) + "|" + String.Format("{0,8:0.####}", el) + "|" + String.Format("{0,5:0}", n - 1) + "|" + String.Format("{0,9:0.####}", sum) + "|");
+                Console.WriteLine("     |_____|________|_____|_________|");
+
                 }
 
             Console.ReadKey();
             Console.ReadKey(true);
-			
-		
-		}
+        }
     }
 }
+    
