@@ -52,7 +52,7 @@ namespace TA_Lab_3
                     else
                         Console.WriteLine("Mimo");  
             }
-        Console.WriteLine("Zadanie 3");
+       Console.WriteLine("Zadanie 3");
             double x, xn, xk, gx, e = 1E-15;
             Console.Write("X nachalnoe: ");
             xn = Convert.ToDouble(Console.ReadLine());
@@ -79,8 +79,8 @@ namespace TA_Lab_3
                         mul = -mul;
                         d += 2;
                     } while (Math.Abs(el - oldel) > e);
-                    Console.WriteLine("     |" + String.Format("{0,5:0.#}", x) + "|" + String.Format("{0,8:0.####}", el) + "|" + String.Format("{0,5:0}", n - 1) + "|" + String.Format("{0,9:0.####}", sum) + "|");
-                Console.WriteLine("     |_____|________|_____|_________|");
+                    Console.WriteLine("     |" + String.Format("{0,5:0.#}", x) + "|" + String.Format("{0,8:0.####}", sum) + "|" + String.Format("{0,5:0}", n - 1) + "|" + String.Format("{0,9:0.####}", Math.PI/2-Math.Atan(x)) + "|");
+                    Console.WriteLine("     |_____|________|_____|_________|");
 
                 }
 
