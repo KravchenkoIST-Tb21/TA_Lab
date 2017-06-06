@@ -1,0 +1,6 @@
+c:\users\nya kawaii desu\documents\visual studio 2017\Projects\Massive\Massive\obj\Debug\Massive.csprojResolveAssemblyReference.cache
+c:\users\nya kawaii desu\documents\visual studio 2017\Projects\Massive\Massive\bin\Debug\Massive.exe.config
+c:\users\nya kawaii desu\documents\visual studio 2017\Projects\Massive\Massive\bin\Debug\Massive.exe
+c:\users\nya kawaii desu\documents\visual studio 2017\Projects\Massive\Massive\bin\Debug\Massive.pdb
+c:\users\nya kawaii desu\documents\visual studio 2017\Projects\Massive\Massive\obj\Debug\Massive.exe
+c:\users\nya kawaii desu\documents\visual studio 2017\Projects\Massive\Massive\obj\Debug\Massive.pdb
