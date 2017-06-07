@@ -1,0 +1,6 @@
+c:\users\nya kawaii desu\documents\visual studio 2017\Projects\TA 6\TA 6\bin\Debug\TA 6.exe.config
+c:\users\nya kawaii desu\documents\visual studio 2017\Projects\TA 6\TA 6\bin\Debug\TA 6.exe
+c:\users\nya kawaii desu\documents\visual studio 2017\Projects\TA 6\TA 6\bin\Debug\TA 6.pdb
+c:\users\nya kawaii desu\documents\visual studio 2017\Projects\TA 6\TA 6\obj\Debug\TA 6.csprojResolveAssemblyReference.cache
+c:\users\nya kawaii desu\documents\visual studio 2017\Projects\TA 6\TA 6\obj\Debug\TA 6.exe
+c:\users\nya kawaii desu\documents\visual studio 2017\Projects\TA 6\TA 6\obj\Debug\TA 6.pdb
